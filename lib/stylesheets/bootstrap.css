@@ -4956,6 +4956,7 @@ button.close {
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
   outline: 0;
+  color: #333;
 }
 
 .modal.fade .modal-dialog {
@@ -4983,6 +4984,7 @@ button.close {
 }
 
 .modal-dialog {
+  background-color: #ccc;
   position: relative;
   width: auto;
   margin: 10px;
@@ -4990,7 +4992,7 @@ button.close {
 
 .modal-content {
   position: relative;
-  background-color: #fff;
+  background-color: #eee;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, .2);
