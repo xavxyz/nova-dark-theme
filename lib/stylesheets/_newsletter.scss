@@ -1,5 +1,6 @@
 .newsletter{
-  background-color: $light-grey;
+  background-color: rgb(35,31,32);
+  color: $white;
   border: 1px solid $light-border;
   border-radius: 3px;
   position: relative;
@@ -11,7 +12,6 @@
   margin-bottom: $vmargin;
   .newsletter-tagline{
     font-size: 1.35rem;
-    color: $black;
     @include small{
       text-align: center;
       margin-bottom: $vmargin;
