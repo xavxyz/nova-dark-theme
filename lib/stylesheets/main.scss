@@ -1,0 +1,78 @@
+// @import '{}/node_modules/bootstrap/scss/bootstrap.scss';
+
+@import "breakpoints";
+@import "colors";
+@import "variables";
+@import "spinner";
+@import "global";
+
+@import "accounts";
+@import "categories";
+@import "cheatsheet";
+@import "comments";
+@import "header";
+@import "newsletter";
+@import "other";
+@import "forms";
+@import "posts";
+@import "users";
+
+body {
+  background-color: $black;
+  color: $white;
+}
+
+a {
+  color: $active-color;
+}
+
+a:focus, a:hover {
+  color: rgb(220, 29, 41);
+  text-decoration: underline;
+}
+
+.btn-primary.active, .btn-primary:hover, .btn-primary:focus, .btn-link:focus, .btn-link:hover {
+  background-color: rgb(220, 29, 41);
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+.page-link:focus, .page-link:hover {
+  color: rgb(220, 29, 41);
+  background-color: #eceeef;
+  border-color: #ddd;
+}
+
+.btn-primary, .btn-primary.active {
+  background-color: $active-color;
+  border-color: $active-color;
+}
+
+.new-post-button{
+  margin-bottom: 15px;
+}
+
+code{
+  font-family: monospace;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 3px 6px;
+}
+
+.avatar{
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+}
+
+.sr-only{
+  display: none;
+}
+
+.upvoted .upvote{
+  opacity: 0.3;
+}
+
+.posts-day h2{
+  font-weight: bold;
+}
