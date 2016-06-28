@@ -31,9 +31,10 @@ a:focus, a:hover {
   text-decoration: underline;
 }
 
-.btn-primary.active:hover, .btn-primary:hover, .btn-primary:focus, .btn-link:focus, .btn-link:hover {
+.btn-primary.active:hover, .btn-primary:active, .btn-primary.active:focus, .btn-primary:hover, .btn-primary:focus, .btn-link:focus, .btn-link:hover, .btn-link:active {
   border-color: rgb(220, 29, 41);
-  text-decoration: underline;
+  text-decoration: none;
+  color: $dark-grey;
   background-color: transparent;
 }
 
